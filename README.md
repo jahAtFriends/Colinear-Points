@@ -19,3 +19,21 @@ all six, not just _some_ of them.
 
 ![Example](https://coursera.cs.princeton.edu/algs4/assignments/collinear/lines2.png)
 
+To achieve this you will need to write _three_ classes (in three separate files, of course):
+- Point
+- BruteCollinearPoints
+- FastCollinearPoints
+
+Here is the API for each...
+
+## API
+The following is the skeleton for each of the classes specified above:
+
+### Point
+```java
+public class Point implements Comparable<Point> {
+  public int compareTo(Point that) {
+    //Compares this to that. See Comparable interface.
+  }
+```
+
